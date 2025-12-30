@@ -1,0 +1,178 @@
+.header {
+    background: #3dcd58;
+    padding: 10px;
+}
+.se_logo {
+    height: 50px;
+}
+.attr{
+	color: #626469;
+	font-size: 14;
+}
+.attr-val{
+	color: #333;
+	font-size: 13;
+}
+/* Footer CSS */
+.footer {
+    font-size: 12px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #293133;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+ }
+
+ .footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 0px;
+    white-space: nowrap;
+	word-break: break-word;
+ }
+
+ .footer-link {
+     margin-right: 15px;
+     color : #EEE !important;
+ }
+ 
+ body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
+	width:100%;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*css by Kiran*/
+.footer .container .row{
+	margin:0 10em;
+	display: flex;
+    flex-wrap: wrap;
+}
+.footer .container .row div{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.doc-content{
+	border: 1px solid #888;
+	margin: 2em 0;
+    padding: 2em;
+	display: flex;
+}
+.doc-content img{
+	margin-right: 3em ;
+	-webkit-box-shadow: 2px 3px 10px 0 rgb(0 0 0 / 75%);
+}
+.doc-details div{
+	margin: 10px 0;
+}
+.doc-details .doc-btn{
+	padding: 10px 20px 10px 20px;
+    background: #42b4e6;
+	width: auto;
+    min-width: 10%;
+    max-width: 30%;
+	text-align: center;
+}
+.doc-details .doc-btn a{
+	color:#fff !important;
+	text-decoration: none;
+}
+.doc-details .doc-btn a:hover{
+	text-decoration: underline;
+}
+.modal-content,.warning-content{
+	min-height: 95%;
+}
+.doc-details{width:80%;}
+
+@media (max-width: 45.5625em) {
+	.doc-content {
+   		display: block;
+		padding: 2em 1em 1em 1em;
+	}
+	.doc-content img{
+		margin-left: auto;
+   	    margin-right: auto;
+   	    display: block;
+   	    width: 100%;
+	}
+	.doc-details{
+		margin:2em 0 0 0em;
+	}
+	.doc-details .doc-btn {
+    width: auto;
+    min-width: 35%;
+    max-width: 60%;
+	}
+	.footer .container .row {
+		margin: 0 2em;
+		display:block;
+	}
+	.doc-details {
+    width: 100% !important;
+	}
+	.doc-details strong{
+	word-break:break-word;
+	}
+	.footer .container .row div{
+		text-align:left !important;
+	/* 	display: inline-grid; */
+	}
+	.footer .container .row div{
+	max-width:100% !important;
+	position: sticky;
+	}
+	.footer a{white-space:unset !important;}
+}
+	.custom-call{
+	text-align: right !important ;
+	}
+	span.footer-text{
+	color : #EEE !important;
+	}
+	.footer-text:hover{
+	text-decoration: underline !important;
+	
+	}

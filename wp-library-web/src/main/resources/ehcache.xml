@@ -1,0 +1,55 @@
+<ehcache
+	dynamicConfig="true"
+	monitoring="off"
+	name="apache-tomcat"
+	updateCheck="false"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd"
+>
+	<!--
+	Caches in this file are designed to be unique per VM and should not be
+	clustered.
+	-->
+	
+	<defaultCache
+		eternal="false"
+		maxElementsInMemory="10000"
+		overflowToDisk="false"
+		timeToIdleSeconds="86400"
+	/>
+	
+	<cache
+		eternal="false"
+		maxElementsInMemory="1000"
+		name="localizationCache"
+		overflowToDisk="false"
+		timeToLiveSeconds="3600"
+		statistics="true"
+	/>
+	
+	<cache
+		eternal="false"
+		maxElementsInMemory="1000"
+		name="documentListing"
+		overflowToDisk="false"
+		timeToLiveSeconds="3600"
+		statistics="true"
+	/>
+	
+	<cache
+		eternal="false"
+		maxElementsInMemory="1000"
+		name="propertiesCache"
+		overflowToDisk="false"
+		timeToLiveSeconds="3600"
+		statistics="true"
+	/>
+	<cache
+		eternal="false"
+		maxElementsInMemory="1000"
+		name="publicApiGeeConsumersCache"
+		overflowToDisk="false"
+		timeToLiveSeconds="21600"
+		statistics="true"
+	/>
+</ehcache>
