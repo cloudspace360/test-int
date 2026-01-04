@@ -30,9 +30,8 @@ jobs:
           java-version: '17'
           cache: maven
       - name: List repo structure
-          run: |
-            ls -l
-
+         run:|
+            ls -ltra & ll
       - name: Maven Build (WAR)
         run: mvn clean install -DskipTests
 
