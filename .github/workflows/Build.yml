@@ -32,7 +32,7 @@ jobs:
       - name: List repo structure
         run: |
          echo "********* LIST REPO STRUCTURE **********"        
-         ls -ltra & ll
+         ls -l && pwd 
       - name: Maven Build (WAR)
         run: mvn clean install -DskipTests
 
