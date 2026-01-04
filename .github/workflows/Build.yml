@@ -29,6 +29,9 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: maven
+      - name: List repo structure
+          run: |
+            ls -l
 
       - name: Maven Build (WAR)
         run: mvn clean install -DskipTests
