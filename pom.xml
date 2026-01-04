@@ -219,7 +219,7 @@
 	<modules>
 		<module>wp-library-service</module>
 		<module>wp-library-business</module>
-		<module>wp-library-repo</module>
+		<!--<module>wp-library-repo</module>-->
 		<module>wp-library-web</module>
 		<module>wp-library-commons</module>
 	</modules>
