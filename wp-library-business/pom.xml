@@ -9,6 +9,7 @@
   <dependencies>
 		<dependency>
 			<groupId>com.se.wp-library</groupId>
+			<artifactId>wp-library-repo</artifactId>
 			<version>${dsu.version}</version>
 		</dependency>
 	</dependencies>
